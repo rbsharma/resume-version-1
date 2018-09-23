@@ -281,6 +281,7 @@ li {
     }
     .card{
       margin: 10% 20%;
+margin-bottom:15% !important;
       width: 60%;
     }
 
@@ -298,5 +299,13 @@ li {
     .img-portfolio{
       height: 300px;
       width: 80%;
+    }
+   .card{
+margin-bottom:15% !important;
+    }
+
+    .front{
+      width: 100%;
+      height: 32em;
     }
 }
