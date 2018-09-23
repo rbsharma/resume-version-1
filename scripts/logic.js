@@ -99,7 +99,7 @@
         var finalDate = new Date();
         //var actWork = $("#accenture").text().split('-');
         //actWork[1] == 'PRESENT' ? finalDate = new Date() : finalDate = actWork[1];
-        var joinDate = new Date('11/26/2014');
+        var joinDate = new Date('04/05/2017');
         var experience = finalDate.getMonth() - joinDate.getMonth() + (12 * (finalDate.getYear() - joinDate.getYear()));
         $("#experience").text(" : " + experience + " Months");
     }
