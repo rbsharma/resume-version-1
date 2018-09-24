@@ -2,260 +2,312 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Rajesh Sharma - Full stack developer</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126296167-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rajesh Sharma - Full stack developer</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126296167-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-126296167-1');
-</script>
+        gtag('config', 'UA-126296167-1');
+    </script>
 
-  <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="styles/site.css" rel="stylesheet" type="text/css" />
-  <!-- <link href="styles/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/site.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="styles/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div id="content" class="row">
-      <div id="profile" class="text-center col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-3 home-centre border-top">
-        <br /><br />
-        <div id="profile-pic">
-          <img id="myPic" src="images/profile.JPG" class="img-circle grow" alt="Rajesh" />
-        </div>
-        <h3 style="font-weight:bold;color:#08aeac">RAJESH SHARMA</h3>
-        <h4>FULL STACK DEVELOPER</h4>
-        <div id="social-buttons" class="row">
-          <a href="https://www.linkedin.com/in/rb-sharma" class="fa fa-linkedin social-media" target="_blank" style="color:blue"
-            title="Linkedin"></a>
-          <a href="https://www.bitbucket.org/RbShamra/" class="fa fa-bitbucket social-media" target="_blank" style="color:green"
-            title="BitBucket"></a>
-          <a href="mailto:er.rajesh22@gmail.com" class="fa fa-envelope social-media" target="_blank" style="color:red"
-            title="Gmail" id="mymail"></a>
-          <a href="https://github.com/rbsharma" class="fa fa-github social-media" target="_blank" title="Github" style="color:#007acc;"></a>
+    <div class="container-fluid">
+        <div id="content" class="row">
+            <div id="profile" class="text-center col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-3 home-centre border-top">
+                <br /><br />
+                <div id="profile-pic">
+                    <img id="myPic" src="images/profile.JPG" class="img-circle grow" alt="Rajesh" />
+                </div>
+                <h3 style="font-weight:bold;color:#08aeac">RAJESH SHARMA</h3>
+                <h4>FULL STACK DEVELOPER</h4>
+                <div id="social-buttons" class="row">
+                    <a href="https://www.linkedin.com/in/rb-sharma" class="fa fa-linkedin social-media" target="_blank" style="color:blue"
+                       title="Linkedin"></a>
+                    <a href="https://www.bitbucket.org/RbShamra/" class="fa fa-bitbucket social-media" target="_blank" style="color:green"
+                       title="BitBucket"></a>
+                    <a href="mailto:er.rajesh22@gmail.com" class="fa fa-envelope social-media" target="_blank" style="color:red"
+                       title="Gmail" id="mymail"></a>
+                    <a href="https://github.com/rbsharma" class="fa fa-github social-media" target="_blank" title="Github" style="color:#007acc;"></a>
 
+                </div><br />
+
+                <hr class="hrShadow" />
+                <div id="profile-content" class="col-lg-12 text-left">
+                    <p>
+                        <h4 style="text-align:center">
+                            I have keen interest in web industry as it offers unique challenges and huge growth potential.
+                        </h4>
+                    </p>
+                    <hr class="hrShadow" />
+                </div>
+
+            </div>
+
+            <div id="links" class="hidden-md visible-lg-block col-xs-offset-0 col-lg-2 col-lg-offset-0 home-centre">
+                <input id="home" type="button" class="btn-link" value="PROFILE" style="margin-bottom:1em" />
+                <ul id="myLinks">
+                    <li><input type="button" class="btn-link" value="EXPERIENCE" /> </li>
+                    <li><input type="button" class="btn-link" value="SKILLS" /> </li>
+                    <li><input type="button" class="btn-link" value="PORTFOLIO" /> </li>
+                    <li><input type="button" class="btn-link" value="CONTACT" style="display:none" /> </li>
+                </ul>
+            </div>
+
+
+            <div id="portfolio" class="col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-0 ">
+
+                <div id="EXPERIENCE" class="col-lg-12 tab-inner padding-1  border-top">
+
+                    <p id="rsystems" class="date">2017-PRESENT</p>
+                    <hr class="hrblue" />
+                    <div style="clear:left">
+                        <span class="key">COMPANY</span><span class="value"> : R SYSTEMS</span><br /><br />
+                        <span class="key text-center">EXPERIENCE</span><span id="experience" class="value"></span><br /><br />
+                        <span class="key text-center">ROLE</span><span class="value"> : SOFTWARE ENGINEER</span><br /><br />
+                        <span class="key">RESPONSIBILITY</span>
+                        <span class="value">
+                            : Worked as front end developer for new agent centric application using Angular 5.
+                            <br /><br />
+                            <span class="key text-center">BENIFITS</span><span class="value">
+                                : Agile process and business
+                                interaction
+                            </span><br />
+                    </div><br />
+
+                    <p id="accenture" class="date">2014-2017</p>
+                    <hr class="hrblue" />
+                    <div style="clear:left">
+                        <span class="key">COMPANY</span><span class="value"> : ACCENTURE</span><br /><br />
+                        <span class="key text-center">EXPERIENCE</span><span id="experience" class="value"> : 26 Months</span><br /><br />
+                        <span class="key text-center">ROLE</span><span class="value"> : SOFTWARE ENGINEER</span><br /><br />
+                        <span class="key">RESPONSIBILITY</span>
+                        <span class="value">
+                            : Worked as full stack developer for new UI design of website using .Net development
+                            stack.
+                            <br /><br />
+                            <span class="key text-center">BENIFITS</span><span class="value"> : Challenging Environment</span><br />
+                    </div><br />
+                    <p id="stardocx" class="date">2016-2016</p>
+                    <hr class="hrblue" />
+                    <div style="clear:left">
+                        <span class="key">COMPANY</span><span class="value">
+                            :
+                            <a href="https://www.stardocx.com" target="_blank" style="color:black">STARDOCX</a> (Freelancer)
+                        </span><br /><br />
+
+                        <span class="key text-center">ROLE</span><span class="value"> : FRONT END DEVELOPER</span><br /><br />
+                        <span class="key">RESPONSIBILITY</span>
+                        <span class="value">
+                            : Worked as front end developer for new UI design of website using AngularJS.
+                            <br /><br />
+                            <span class="key text-center">BENIFITS</span><span class="value"> : Freedom of thoughts</span><br />
+                    </div>
+                    <hr class="hrblue" />
+                </div>
+                <div id="SKILLS" class="col-lg-12 tab-inner padding-1  border-top">
+                    <!-- professional skills -->
+                    <p class="valueHeader"><i class="fa fa-users" style="float:left"></i> &nbsp;PROFESSIONAL SKILLS</p>
+                    <hr class="hrDotted" />
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-12">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:100%">
+                                    COMMUNICATION
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:100%;">
+                                    CONFIDENCE
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:100%;">
+                                    TEAMWORK
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code skills -->
+                    <p class="valueHeader"><i class="fa fa-code" style="float:left"></i> &nbsp;TECHNICAL SKILLS</p>
+                    <hr class="hrDotted" />
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-12">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:70%">
+                                    C#
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:65%;">
+                                    MVC
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:80%">
+                                    ANGULAR 5
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:70%">
+                                    WEB API
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:75%;">
+                                    JAVASCRIPT
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:55%;">
+                                    BOOTSTRAP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- software skills -->
+                    <p class="valueHeader"><i class="fa fa-laptop" style="float:left"></i> &nbsp;TOOLS AND PROCESS SKILLS</p>
+                    <hr class="hrDotted" />
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-12">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:80%">
+                                    VISUAL STUDIO
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:80%;">
+                                    AGILE
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:75%;">
+                                    GIT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hrShadow" />
+                </div>
+
+                <div id="PORTFOLIO" class="col-lg-12 tab-inner  border-top" style="text-align:center">
+                    <p class="valueHeader "><i class="fa fa-suitcase"></i> &nbsp;PORTFOLIO</p>
+                    <hr class="hrDotted" />
+
+                    <div class="myCards">
+                        <div class="card">
+                            <div class="flip-card" id="card1">
+                                <div class="">
+                                    <img class="front" src="./images/vse.JPG" />
+                                    <i id="info1" class="information grow fa fa-info-circle fa-2x"></i>
+                                </div>
+                                <div class="back">
+                                    Order Entry Web(OE Web) is an in house product of VSE used by their agents for managing
+                                    <a href="https://www.psychicsource.com/" target="_blank" style="color:#08aeac">phychic source's</a>
+                                    customers.
+                                    OE Web uses <a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" style="color:#08aeac">SPA</a>
+                                    architecture and is built on <a style="color:#08aeac">Angular 5</a> framework. It consists of various
+                                    modules handling customer registrations, search, customer details
+                                    dashboard and a number of sale transactions.
+                                    <br /><br />
+                                    COMPANY: <a href="https://www.rsystems.com/" target="_blank" style="color:#08aeac">R SYSTEMS</a><br />
+                                    Client: <a href="https://vseinc.com/" target="_blank" style="color:#08aeac">VOICE SYSTEM ENGINEERING</a><br />
+                                    Service: <b style="color:#08aeac">FRONT END DEVELOPMENT</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="flip-card" id="card2">
+                                <div class="">
+                                    <img class="front" src="./images/mslearning.PNG" />
+                                    <i id="info2" class="information grow fa fa-info-circle fa-2x white"></i>
+                                </div>
+                                <div class="back">
+                                    MSLearning system consists of 4 UI applications
+                                    These applications mainly deal with various certification programs introduced by Microsoft in market
+                                    for its various customers like MCT (Microsoft Certified Trainers), MCPs (Microsoft Certified
+                                    Professionals) etc.
+                                    <br /><br />
+                                    COMPANY: <a href="https://www.accenture.com/" target="_blank" style="color:#08aeac">ACCENTURE</a><br />
+                                    Client: <a href="https://learning.microsoft.com/" target="_blank" style="color:#08aeac">Microsoft</a><br />
+                                    Service: <b style="color:#08aeac">FULL STACK DEVELOPMENT</b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="flip-card" id="card3">
+                                <div class="">
+                                    <img class="front" src="./images/stardocx.PNG" />
+                                    <i id="info3" class="information grow fa fa-info-circle fa-2x white"></i>
+                                </div>
+                                <div class="back">
+                                    This project is basically a progressive web app.
+                                    This online site presents a community for college students to get in touch with the updates of
+                                    university and their peers. App is built using SPA, AngularJS and Node.js.
+                                    <br /><br />
+                                    Client: <a href="https://www.stardocx.com/" target="_blank" style="color:#08aeac">Stardocx</a><br />
+                                    Service: <b style="color:#08aeac">FRONT END DEVELOPMENT</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div><br />
+         <div class="footer text-center" style="color:white">
+                Made with Bootstrap + JQuery
+                Copyright (c) Rajesh 2016
+            </div> 
+    </div>
+    <!--Loading Scripts at end to reduce page load time-->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="scripts/logic.js"></script>
+    <script>
+        var delay = 1;
+        //var opacity = [1, 1, 1];
+        var opacity1 = 1;
+        var opacity2 = 1;
+        var opacity3 = 1;
+        //for (var i = 0; i < 3; i++) {
+        //    $('#card' + i).flip();
+        //    $('#card' + i).on('flip:done', function (event) {
+        //        opacity[i] = !opacity[i];
+        //        $('#info' + i).animate({ opacity: opacity[i] }, delay);
+        //    });
+        //}
+        $('#card1').flip();
+        $('#card1').on('flip:done', function (event) {
+            opacity1 = !opacity1;
+            $('#info1').animate({ opacity: opacity1 }, delay);
+        });
 
-        <hr class="hrShadow" />
-        <div id="profile-content" class="col-lg-12 text-left">
-          <p>
-            <h4 style="text-align:center">
-              I have keen interest in web industry as it offers unique challenges and huge growth potential.
-            </h4>
-          </p>
-          <hr class="hrShadow" />
-        </div>
+        $('#card2').flip();
+        $('#card2').on('flip:done', function (event) {
+            opacity2 = !opacity2;
+            $('#info2').animate({ opacity: opacity2 }, delay);
+        });
 
-      </div>
-
-      <div id="links" class="hidden-md visible-lg-block col-xs-offset-0 col-lg-2 col-lg-offset-0 home-centre">
-        <input id="home" type="button" class="btn-link" value="PROFILE" style="margin-bottom:1em" />
-        <ul id="myLinks">
-          <li><input type="button" class="btn-link" value="EXPERIENCE" /> </li>
-          <li><input type="button" class="btn-link" value="SKILLS" /> </li>
-          <li><input type="button" class="btn-link" value="PORTFOLIO" /> </li>
-          <li><input type="button" class="btn-link" value="CONTACT" style="display:none" /> </li>
-        </ul>
-      </div>
-
-
-      <div id="portfolio" class="col-xs-12 col-xs-offset-0 col-lg-4 col-lg-offset-0 ">
-
-        <div id="EXPERIENCE" class="col-lg-12 tab-inner padding-1  border-top">
-
-          <p id="rsystems" class="date">2017-PRESENT</p>
-          <hr class="hrblue" />
-          <div style="clear:left">
-            <span class="key">COMPANY</span><span class="value"> : R SYSTEMS</span><br /><br />
-            <span class="key text-center">EXPERIENCE</span><span id="experience" class="value"></span><br /><br />
-            <span class="key text-center">ROLE</span><span class="value"> : SOFTWARE ENGINEER</span><br /><br />
-            <span class="key">RESPONSIBILITY</span>
-            <span class="value"> : Worked as front end developer for new agent centric application using Angular 5.
-              <br /><br />
-              <span class="key text-center">BENIFITS</span><span class="value"> : Agile process and business
-                interaction</span><br />
-          </div><br />
-
-          <p id="accenture" class="date">2014-2017</p>
-          <hr class="hrblue" />
-          <div style="clear:left">
-            <span class="key">COMPANY</span><span class="value"> : ACCENTURE</span><br /><br />
-            <span class="key text-center">EXPERIENCE</span><span id="experience" class="value"> : 26 Months</span><br /><br />
-            <span class="key text-center">ROLE</span><span class="value"> : SOFTWARE ENGINEER</span><br /><br />
-            <span class="key">RESPONSIBILITY</span>
-            <span class="value"> : Worked as full stack developer for new UI design of website using .Net development
-              stack.
-              <br /><br />
-              <span class="key text-center">BENIFITS</span><span class="value"> : Challenging Environment</span><br />
-          </div><br />
-          <p id="stardocx" class="date">2016-2016</p>
-          <hr class="hrblue" />
-          <div style="clear:left">
-            <span class="key">COMPANY</span><span class="value"> :
-              <a href="https://www.stardocx.com" target="_blank" style="color:black">STARDOCX</a> (Freelancer)
-            </span><br /><br />
-
-            <span class="key text-center">ROLE</span><span class="value"> : FRONT END DEVELOPER</span><br /><br />
-            <span class="key">RESPONSIBILITY</span>
-            <span class="value"> : Worked as front end developer for new UI design of website using AngularJS.
-              <br /><br />
-              <span class="key text-center">BENIFITS</span><span class="value"> : Freedom of thoughts</span><br />
-          </div>
-          <hr class="hrblue" />
-        </div>
-        <div id="SKILLS" class="col-lg-12 tab-inner padding-1  border-top">
-          <!-- professional skills -->
-          <p class="valueHeader"><i class="fa fa-users" style="float:left"></i> &nbsp;PROFESSIONAL SKILLS</p>
-          <hr class="hrDotted" />
-          <div class="row">
-            <div class="col-xs-12 col-lg-12">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped active" style="width:100%">
-                  COMMUNICATION
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped active" style="width:100%;">
-                  CONFIDENCE
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped active" style="width:100%;">
-                  TEAMWORK
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- code skills -->
-          <p class="valueHeader"><i class="fa fa-code" style="float:left"></i> &nbsp;TECHNICAL SKILLS</p>
-          <hr class="hrDotted" />
-          <div class="row">
-            <div class="col-xs-12 col-lg-12">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:70%">
-                  C#
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:65%;">
-                  MVC
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:80%">
-                  ANGULAR 5
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:70%">
-                  WEB API
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:75%;">
-                  JAVASCRIPT
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:55%;">
-                  BOOTSTRAP
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- software skills -->
-          <p class="valueHeader"><i class="fa fa-laptop" style="float:left"></i> &nbsp;TOOLS AND PROCESS SKILLS</p>
-          <hr class="hrDotted" />
-          <div class="row">
-            <div class="col-xs-12 col-lg-12">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:80%">
-                  VISUAL STUDIO
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:80%;">
-                  AGILE
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:75%;">
-                  GIT
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="hrShadow" />
-        </div>
-
-        <div id="PORTFOLIO" class="col-lg-12 tab-inner  border-top" style="text-align:center">
-          <p class="valueHeader "><i class="fa fa-suitcase"></i> &nbsp;PORTFOLIO</p>
-          <hr class="hrDotted" />
-
-          <div class="myCards">
-            <div id="items" class="card" onclick="flip(this)">
-              <div class="front grow" style="background: url(images/vse.JPG);background-size: 100% 100%;"></div>
-              <div class="back">
-                Order Entry Web(OE Web) is an in house product of VSE used by their agents for managing
-                <a href="https://www.psychicsource.com/" target="_blank" style="color:#08aeac">phychic source's</a>
-                customers.
-                OE Web uses <a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" style="color:#08aeac">SPA</a>
-                architecture and is built on <a style="color:#08aeac">Angular 5</a> framework. It consists of various
-                modules handling customer registrations, search, customer details
-                dashboard and a number of sale transactions.
-                <br /><br />
-                COMPANY: <a href="https://www.rsystems.com/" target="_blank" style="color:#08aeac">R SYSTEMS</a><br />
-                Client: <a href="https://vseinc.com/" target="_blank" style="color:#08aeac">VOICE SYSTEM ENGINEERING</a><br />
-                Service: <b style="color:#08aeac">FRONT END DEVELOPMENT</b>
-              </div><br />
-            </div>
-
-            <div id="items" class="card" onclick="flip(this)">
-              <div class="front grow" style="background: url(images/mslearning.PNG);background-size: 100% 100%;"></div>
-              <div class="back">
-                MSLearning system consists of 4 UI applications
-                These applications mainly deal with various certification programs introduced by Microsoft in market
-                for its various customers like MCT (Microsoft Certified Trainers), MCPs (Microsoft Certified
-                Professionals) etc.
-                <br /><br />
-                COMPANY: <a href="https://www.accenture.com/" target="_blank" style="color:#08aeac">ACCENTURE</a><br />
-                Client: <a href="https://learning.microsoft.com/" target="_blank" style="color:#08aeac">Microsoft</a><br />
-                Service: <b style="color:#08aeac">FULL STACK DEVELOPMENT</b>
-              </div><br />
-            </div>
-
-            <div id="items" class="card" onclick="flip(this)">
-              <div class="front grow" style="background: url(images/stardocx.jpg);background-size: 100% 100%;"></div>
-              <div class="back">
-                This project is basically a progressive web app.
-                This online site presents a community for college students to get in touch with the updates of
-                university and their peers.
-                <br /><br />
-                Client: <a href="https://www.stardocx.com/" target="_blank" style="color:#08aeac">Stardocx</a><br />
-                Service: <b style="color:#08aeac">FRONT END DEVELOPMENT</b>
-              </div><br />
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div><br />
-    <!-- <div class="footer text-center" style="color:white">
-            Made with Bootstrap + JQuery
-            Copyright (c) Rajesh 2016
-        </div> -->
-  </div>
-  <!--Loading Scripts at end to reduce page load time-->
-  <script src="scripts/jquery.min.js"></script>
-  <script src="scripts/bootstrap.min.js"></script>
-  <script src="scripts/logic.js"></script>
+        $('#card3').flip();
+        $('#card3').on('flip:done', function (event) {
+            opacity3 = !opacity3;
+            $('#info3').animate({ opacity: opacity3 }, delay);
+        });
+    </script>
 </body>
 
 </html>
